@@ -1,2 +1,2 @@
-# Mediical_care_detection
+# Medical_care_detection
 Проект нейронной сети для обнаружения медработников на изображении.
