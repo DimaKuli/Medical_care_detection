@@ -8,7 +8,11 @@ flask --app app run --host=0.0.0.0
 --------------------------------------------
 Создание докер файла для запуска приложения
 
+-- Подгрузить веса модели YOLOv3 с Google хранилища по ссылке: https://drive.google.com/file/d/1k6tnsjF1qn_0nOQCbVHh8Ij1w60fPj0b/view?usp=sharing
+Веса весят около 700 Мб, поэтому хранятся на Google - диске.
+
 -- Собрать "docker_образ" по инструкциям записанным файле Dockerfile
+
 --- Один раз !!!! запустить команду
 docker image build -t flask_docker app
 
